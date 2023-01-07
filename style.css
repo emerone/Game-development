@@ -22,3 +22,13 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+canvas {
+  border:  solid #000 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 600px;
+  height: 600px;
+}
