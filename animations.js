@@ -1,6 +1,5 @@
 import './animations.css'
 import "./style.css"
-import shadowDog from './shadow_dog.png';
 
 document.querySelector('#app').innerHTML = `
   <div class="select-container">
@@ -29,8 +28,8 @@ const ctx = canvas.getContext('2d')
 const canvasWidth = canvas.width = 600
 const canvasHeight = canvas.height = 600
 
-const playerImage = new Image()
-playerImage.src = shadowDog
+const playerImage = new Image();
+playerImage.src = 'shadow_dog.png'
 const spriteWidth = 575
 const spriteHeight = 523
 
