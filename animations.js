@@ -1,4 +1,4 @@
-import './style.css'
+import './animations.css'
 import shadowDog from './shadow_dog.png';
 
 document.querySelector('#app').innerHTML = `
@@ -35,8 +35,6 @@ const spriteHeight = 523
 
 let frameX = 0
 let frameY = 0
-let gameFramerate = 0
-const staggerFrame = 10
 
 const animationStates = [
   {

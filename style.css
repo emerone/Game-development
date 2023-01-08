@@ -22,23 +22,3 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
-.select-container {
-  margin-top: 3rem;
-  display: flex;
-  padding: 1rem;
-  gap: 1rem;
-}
-.select-container select {
-  padding:  0.3rem 0.5rem;
-}
-
-canvas {
-  border:  solid #000 3px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  width: 600px;
-  height: 600px;
-}
