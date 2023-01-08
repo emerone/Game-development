@@ -1,6 +1,5 @@
 import "./parallax.css";
-import './animations.css'
-import shadowDog from './shadow_dog.png';
+import "./style.css"
 
 document.querySelector('#app').innerHTML = `
   <canvas></canvas>

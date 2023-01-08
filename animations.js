@@ -1,4 +1,5 @@
 import './animations.css'
+import "./style.css"
 import shadowDog from './shadow_dog.png';
 
 document.querySelector('#app').innerHTML = `
