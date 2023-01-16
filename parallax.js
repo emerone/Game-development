@@ -12,7 +12,11 @@ const canvas = document.querySelector('canvas')
 const ctx = canvas.getContext("2d")
 const canvasWidth = canvas.width = 800
 const canvasHeight = canvas.height = 700
-const gameSpeed = 1
+let gameSpeed = 1
+
+const p = document.querySelector("p")
+const input = document.querySelector("input")
+
 
 
 class Layer {
@@ -78,8 +82,21 @@ function animate(){
 }
 animate() 
 
+const showValue = (value) => {
+  p.innerText = `Game speed : ${value}`
+  gameSpeed = value
+  input.value = value * 4
+}
+showValue(1)
+
 
 /**
  * Events 
  */ 
+
+
+input.onchange = e => {
+  const value = input.value / 4
+  showValue(value)
+}
 
